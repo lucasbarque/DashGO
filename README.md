@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Logotipo -->
+<div align="center">
+  <img src="https://i.ibb.co/vXPnm4F/ignite.png">
+</div>
 
-## Getting Started
+<!-- Title -->
+<h1 align="center"> Rocketseat 🔥 Ignite ReactJS </h1>
 
-First, run the development server:
+<!-- Logo -->
+<h1 align="center"> Dashgo. </h1>
+<!-- Preview -->
+<div align="center">
+  <img src=".github/preview.gif">
+</div>
+
+## 💻 Teste você mesmo clicando no link [Dashgo](https://dash-go-lucasbarque.vercel.app/)
+
+<br/>
+<!-- Sobre o Projeto -->
+
+## 🧐 Sobre o Projeto
+
+Dashgo. é um projeto de um dashboard ou painel administrativo, desenvolvido em ReactJS para estudo da biblioteca ChakraUI.
+
+Nesse projeto são utilizadas várias tecnologias e bibliotecas, conforme abaixo.
+
+## 🚀 Tecnologias e Bibliotecas
+
+- [ReactJS](https://reactjs.org/)
+- [Next.JS](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Chakra-UI](https://chakra-ui.com/): para interface de telas
+- [ApexCharts](https://apexcharts.com/): para exibir um gráfico no dashboard
+- [React Hook Form](https://react-hook-form.com/): Form para tratar entradas de formulário
+- [Yup](https://www.npmjs.com/package/yup): para validar as entradas
+- [React Query](https://react-query.tanstack.com/): para armazenar os dados da API em cache
+- [MirageJS](https://miragejs.com/): uma fake API que não necessitar rodar o servidor em terminal
+- [Faker](https://fakerjs.dev/): uma biblioteca que gera dados aleatórios
+
+## 💻 Rodando o Projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Realize o Clone deste repositório
+$ https://github.com/lucasbarque/DashGO.git
+# ou use a opção de download.
+# Acesse a pasta DashGO
+$ cd DashGO
+# Instale as dependências
+$ yarn install
+ou
+$ npm install
+# Executando o Projeto
+$ yarn dev
+ou
+$ npm dev
+# Acesse http://localhost:3000 no seu navagador
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Stat
