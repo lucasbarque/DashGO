@@ -10,7 +10,7 @@ type User = {
 export function makeServer() {
   const server = createServer({
     serializers: {
-
+      application: ActiveModelSerializer
     },
 
     models: {
@@ -41,6 +41,7 @@ export function makeServer() {
 
       this.get('/users', function(schema, request) {
         const { page = 1, per_page = 10 } = request.queryParams;
+        
 
         const total = schema.all('user').length;
 
